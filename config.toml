@@ -1,0 +1,45 @@
+[llm]
+openai_compatible_base_url = "https://openrouter.ai/api/v1"
+embedding_provider = "openrouter"
+
+[llm.deriver]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+
+[llm.summary]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+
+[llm.dream]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+
+[dialectic.levels.minimal]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+thinking_budget_tokens = 0
+max_tool_iterations = 5
+
+[dialectic.levels.low]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+thinking_budget_tokens = 0
+max_tool_iterations = 5
+
+[dialectic.levels.medium]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+thinking_budget_tokens = 0
+max_tool_iterations = 10
+
+[dialectic.levels.high]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+thinking_budget_tokens = 0
+max_tool_iterations = 15
+
+[dialectic.levels.max]
+provider = "custom"
+model = "mistralai/mistral-small-2603"
+thinking_budget_tokens = 0
+max_tool_iterations = 20
